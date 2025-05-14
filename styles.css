@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+/*HEADER*/
+
+header {
+    display: flex;
+    flex-direction: row;
+    background-color: #EDF2F8;
+}
+
+/*Parte IZQ header*/
+
+header h1 {
+    margin-top: 15px;
+}
+
+header h2,h4{
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.header-izq {
+    width: 50%;
+    margin-left: 40px;
+}
+
+.header-der {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    margin-right: 40px;
+}
+
+/*Parte IZQ header*/
+
+header ul {
+    list-style: none; 
+    padding: 0;
+    margin-top: 15px;
+    font-size: 18px;
+    text-align: right;
+}
+
+header li {
+    margin-bottom: 10px;
+}
+
+header i {
+    margin-left: 10px;
+}
+
+/*CONTENEDOR PRINCIPAL*/
+
+.contenido-principal {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+/*CONTENEDOR PRINCIPAL IZQ*/
+
+.contenido-izq {
+    margin-left: 20px;
+    width: 50%;
+    border: 1px solid red;
+}
+
+.contenido-izq h3{
+   margin-top: 20px;
+   margin-left: 10px;
+   opacity: 0.5;
+}
+
+.contenido-principal ul {
+    margin-left: 30px;
+    margin-top: 10px;
+    opacity: 0.5;
+    font-weight: bold;
+}
+
+.contenido-principal li {
+   margin-top: 6px;
+}
+
+.educacion {
+    margin-top: 40px;
+}
+
+/*CONTENEDOR PRINCIPAL DER*/
+
+.contenido-der {
+    margin-left: 20px;
+    width: 50%;
+    border: 1px solid red;
+}
+
+
+/*Especial 1*/
+.timeline {
+            display: flex;
+            align-items: flex-start; /* Alinea los elementos en el centro verticalmente */
+            justify-content: center; /* Centra el contenido horizontalmente */
+            font-family: Arial, sans-serif;
+            flex-direction: column;
+        }
+
+.year {
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    color: gray;
+    }
+
+.line {
+    width: 1px; /* Ancho de la línea */
+    height: 15px; /* Altura de la línea */
+    background-color: gray; /* Color de la línea */
+    margin: 0 20px; /* Espaciado a la izquierda y derecha de la línea */
+    }
+
+/*Especial 2*/
+
+  
+
