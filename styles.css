@@ -60,7 +60,7 @@ header i {
 /*CONTENEDOR PRINCIPAL*/
 
 .contenido-principal {
-    border: 1px solid red;
+
     display: flex;
     flex-direction: row;
     margin-top: 30px;
@@ -71,7 +71,7 @@ header i {
 .contenido-izq {
     margin-left: 20px;
     width: 50%;
-    border: 1px solid red;
+
 }
 
 .contenido-izq h3{
@@ -95,12 +95,11 @@ header i {
     margin-top: 40px;
 }
 
-/*CONTENEDOR PRINCIPAL DER*/
 
 .contenido-der {
     margin-left: 20px;
     width: 50%;
-    border: 1px solid red;
+
 }
 
 .contenedor-tiempo {
@@ -116,6 +115,7 @@ header i {
     justify-content: center;
     font-family: Arial, sans-serif;
     flex-direction: column;
+    margin-top: 20px;
 }
 
 .timeline2 {
@@ -147,7 +147,7 @@ header i {
     width: 1px; 
     height: 15px; 
     background-color: gray; 
-    margin: 0 20px; 
+    margin: 0 25px; 
     }
 
 .contenedor-fechas {
@@ -160,7 +160,7 @@ header i {
 .linea-puntos {
     position: relative;
     width: 2px;
-    height: 900px; /* Ajusta según el número de puntos */
+    height: 600px; /* Ajusta según el número de puntos */
     background-color: #d3d3d3;
     margin-top: 10px;
     margin-left: 10px;
@@ -177,7 +177,7 @@ header i {
   border-radius: 50%;
   position: relative;
   z-index: 1;
-  margin-top: 27px;
+  margin-top: 50px;
 }
 
 .punto2 {
@@ -202,7 +202,7 @@ header i {
 
 .contenedor-educacion1 {
     width: 100%;
-    margin-top: 35px;
+    margin-top: 55px;
     margin-left: 20px;
     display: flex;
     flex-direction: column;
@@ -210,7 +210,7 @@ header i {
 
 .contenedor-educacion2 {
     width: 100%;
-    margin-top: 90px;
+    margin-top: 95px;
     margin-left: 20px;
     display: flex;
     flex-direction: column;
@@ -231,6 +231,106 @@ header i {
 .contenedor-azules {
     color: #528CC6;
     margin-top: -10px;
+}
+
+/*Contenedor Derecha*/
+
+.badge {
+    display: inline-block;
+    padding: 6px 10px;
+    background-color: #528CC6;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-right: 20px;
+    }
+
+    .timeline4 {
+    display: flex;
+    align-items: flex-start; 
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    flex-direction: column;
+    margin-top: 5px;
+}
+
+.timeline5 {
+    display: flex;
+    align-items: flex-start; 
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    flex-direction: column;
+    margin-top: 130px;
+}
+
+.timeline6 {
+    display: flex;
+    align-items: flex-start; 
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.contenedor-trabajo1 {
+    width: 100%;
+    margin-top: 55px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor-trabajo2 {
+    width: 100%;
+    margin-top: 45px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor-trabajo3 {
+    width: 100%;
+    margin-top: 60px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+/*FOOTER*/
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #EDF2F8;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/*Parte IZQ footer*/
+
+footer h1 {
+    margin-top: 15px;
+    align-items: center;
+}
+
+
+
+.footer-izq {
+    width: 50%;
+    margin-left: 40px;
+}
+
+.footer-der {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    margin-right: 40px;
+    align-items: center;
+}
+
+footer i {
+    margin-left: 10px;
 }
 
 
